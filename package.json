@@ -1,0 +1,36 @@
+{
+  "name": "kelvinluck.com",
+  "description": "Static site generator for kelvinluck.com",
+  "version": "0.1.0",
+  "homepage": "kelvinluck.com",
+  "author": {
+    "name": "Kelvin Luck",
+    "email": "git@kelvinluck.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "kelvinluck.com/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-haggerston": "git://github.com/haggerstonjs/grunt-haggerston.git",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-less": "~0.11.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-connect": "~0.8.0",
+    "load-grunt-config": "~0.12.0",
+    "grunt-notify": "~0.3.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "keywords": [
+    "haggerstonjs"
+  ]
+}

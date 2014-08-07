@@ -1,6 +1,59 @@
 {
 	"template": "home.html",
 	"templateData": {
-		"title": "Hello world"
+		"title": "Welcome",
+		"intro": "intro.md",
+		"languages": [
+			{
+				"name": "Javascript",
+				"href": "https://developer.mozilla.org/en/docs/Web/JavaScript"
+			},
+			{
+				"name": "C#",
+				"href": "http://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+			}
+		],
+		"elsewhere": [
+			{
+				"name": "Github",
+				"href": "https://github.com/vitch",
+				"icon": "github"
+			},
+			{
+				"name": "Stack Overflow",
+				"href": "http://stackoverflow.com/users/223931/vitch",
+				"icon": "stack-overflow"
+			},
+			{
+				"name": "Twitter",
+				"href": "https://twitter.com/vitch",
+				"icon": "twitter"
+			},
+			{
+				"name": "Naked Itchy Feet (travel blog)",
+				"href": "http://www.nakeditchyfeet.com/",
+				"icon": "n"
+			},
+			{
+				"name": "LinkedIn",
+				"href": "http://uk.linkedin.com/in/vitch/",
+				"icon": "linkedin"
+			},
+			{
+				"name": "Flickr",
+				"href": "https://flickr.com/vitch/",
+				"icon": "flickr3"
+			},
+			{
+				"name": "Old blog (2008)",
+				"href": "http://2008.kelvinluck.com",
+				"icon": "wordpress"
+			},
+			{
+				"name": "Older blog (2005)",
+				"href": "http://2005.kelvinluck.com",
+				"icon": "pencil-square"
+			}
+		]
 	}
 }

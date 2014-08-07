@@ -1,4 +1,32 @@
 {% extends 'template.html' %}
 {% block bodyContent %}
-	<p>Hello world!</p>
+	 <div class="container">
+	 	<div class="jumbotron">
+	 		<h1>Hello!</h1>
+	 		{{ intro|raw }}
+	 	</div>
+	 	<div class="row">
+	 		<div class="col-sm-6">
+	 			<h4>Languages</h4>
+	 			<ul class="list-inline">
+	 				{% for language in languages %}
+	 				<li><a href="{{ language.href }}" target="_blank">{{ language.name }}</a></li>
+	 				{% endfor %}
+	 			</ul>
+	 		</div>
+	 		<div class="col-sm-6">
+	 			<h4>Elsewhere</h4>
+	 			<ul class="list-unstyled">
+	 				{% for place in elsewhere %}
+	 				<li>
+	 					<a href="{{ place.href }}" target="_blank">
+	 						<span class="icon icon-{{place.icon}}"></span>
+	 						{{ place.name }}
+ 						</a>
+ 					</li>
+	 				{% endfor %}
+	 			</ul>
+	 		</div>
+	 	</div>
+	 </div>
 {% endblock %}

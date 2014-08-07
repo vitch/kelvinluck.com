@@ -5,12 +5,28 @@
 		"intro": "intro.md",
 		"languages": [
 			{
-				"name": "Javascript",
+				"name": "JavaScript",
 				"href": "https://developer.mozilla.org/en/docs/Web/JavaScript"
 			},
 			{
 				"name": "C#",
 				"href": "http://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+			},
+			{
+				"name": "CSS",
+				"href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+			},
+			{
+				"name": "HTML",
+				"href": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+			},
+			{
+				"name": "PHP",
+				"href": "http://php.net/"
+			},
+			{
+				"name": "Actionscript",
+				"href": "http://www.adobe.com/devnet/actionscript.html"
 			}
 		],
 		"elsewhere": [
@@ -43,6 +59,11 @@
 				"name": "Flickr",
 				"href": "https://flickr.com/vitch/",
 				"icon": "flickr3"
+			},
+			{
+				"name": "Pinboard",
+				"href": "https://pinboard.in/u:vitch/",
+				"icon": "pushpin"
 			},
 			{
 				"name": "Old blog (2008)",

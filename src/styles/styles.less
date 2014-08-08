@@ -6,7 +6,9 @@
 // My Icon font
 @import "icons.less";
 
-@body-bg: #333;
+// Colours from https://kuler.adobe.com/Expo-color-theme-4112299/
+
+@body-bg: #435772;
 @text-color: #fff;
 @link-color: @text-color;
 @font-family-base: 'ProximaNova-Regular', Georgia, 'Times New Roman', Times, serif;
@@ -17,6 +19,19 @@
 @container-large-desktop: @container-tablet;
 @container-desktop: @container-tablet;
 
+a {
+	transition: color .3s ease-in-out;
+}
+
 a:hover {
 	text-decoration: none;
+	color: #FEAA3A;
+}
+
+.container {
+	margin-top: 80px;
+}
+
+.list-inline li {
+	padding-bottom: 5px;
 }

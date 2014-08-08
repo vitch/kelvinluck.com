@@ -46,14 +46,14 @@
 				"icon": "twitter"
 			},
 			{
-				"name": "Naked Itchy Feet (travel blog)",
-				"href": "http://www.nakeditchyfeet.com/",
-				"icon": "n"
-			},
-			{
 				"name": "LinkedIn",
 				"href": "http://uk.linkedin.com/in/vitch/",
 				"icon": "linkedin"
+			},
+			{
+				"name": "Naked Itchy Feet",
+				"href": "http://www.nakeditchyfeet.com/",
+				"icon": "n"
 			},
 			{
 				"name": "Flickr",

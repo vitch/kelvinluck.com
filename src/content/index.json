@@ -36,14 +36,14 @@
 				"icon": "github"
 			},
 			{
-				"name": "Stack Overflow",
-				"href": "http://stackoverflow.com/users/223931/vitch",
-				"icon": "stack-overflow"
-			},
-			{
 				"name": "Twitter",
 				"href": "https://twitter.com/vitch",
 				"icon": "twitter"
+			},
+			{
+				"name": "Flickr",
+				"href": "https://flickr.com/vitch/",
+				"icon": "flickr3"
 			},
 			{
 				"name": "LinkedIn",
@@ -51,14 +51,14 @@
 				"icon": "linkedin"
 			},
 			{
+				"name": "Stack Overflow",
+				"href": "http://stackoverflow.com/users/223931/vitch",
+				"icon": "stack-overflow"
+			},
+			{
 				"name": "Naked Itchy Feet",
 				"href": "http://www.nakeditchyfeet.com/",
 				"icon": "n"
-			},
-			{
-				"name": "Flickr",
-				"href": "https://flickr.com/vitch/",
-				"icon": "flickr3"
 			},
 			{
 				"name": "Pinboard",

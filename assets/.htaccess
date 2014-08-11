@@ -16,3 +16,7 @@ RewriteRule ^(?:2005|2006|2007|2008|2009|about|projects|photos|category|tag|wp-c
   FilterChain     COMPRESS
   FilterProtocol  COMPRESS  change=yes;byteranges=no
 </IfModule>
+
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>

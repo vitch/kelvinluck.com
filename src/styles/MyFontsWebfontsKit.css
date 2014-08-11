@@ -21,14 +21,6 @@
  * 
  * © 2014 MyFonts Inc
 */
+@import url("//hello.myfonts.net/count/2b9b57"); @font-face {font-family: 'ProximaNova-Regular';src: url('webfonts/2B9B57_0_0.eot');src: url('webfonts/2B9B57_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9B57_0_0.woff') format('woff'),url('webfonts/2B9B57_0_0.ttf') format('truetype');} @font-face {font-family: 'ProximaNova-Bold';src: url('webfonts/2B9B57_1_0.eot');src: url('webfonts/2B9B57_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9B57_1_0.woff') format('woff'),url('webfonts/2B9B57_1_0.ttf') format('truetype');}
 
-
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/2b9b57");
-
-  
-@font-face {font-family: 'ProximaNova-Regular';src: url('webfonts/2B9B57_0_0.eot');src: url('webfonts/2B9B57_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9B57_0_0.woff') format('woff'),url('webfonts/2B9B57_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'ProximaNova-Bold';src: url('webfonts/2B9B57_1_0.eot');src: url('webfonts/2B9B57_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9B57_1_0.woff') format('woff'),url('webfonts/2B9B57_1_0.ttf') format('truetype');}
  

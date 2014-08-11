@@ -12,6 +12,9 @@ var path = require('path');
 
 module.exports = function(grunt) {
 
+  var target = grunt.option('target') || 'dev';
+  grunt.isProduction = target !== 'dev';
+
   // Load config and initialise...
   require('load-grunt-config')(grunt, {
     configPath: path.join(__dirname, 'grunt/options'),

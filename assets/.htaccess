@@ -7,3 +7,12 @@ RewriteBase /
 </Files>
 
 RewriteRule ^(?:2005|2006|2007|2008|2009|about|projects|photos|category|tag|wp-content|assets)\b.* http://2008.kelvinluck.com/$0 [L]
+
+
+<IfModule filter_module>
+  FilterDeclare   COMPRESS
+  FilterProvider  COMPRESS  DEFLATE resp=Content-Type /text/(html|css|javascript|plain|x(ml|-component))/
+  FilterProvider  COMPRESS  DEFLATE resp=Content-Type /application/(javascript|json|xml|x-javascript)/
+  FilterChain     COMPRESS
+  FilterProtocol  COMPRESS  change=yes;byteranges=no
+</IfModule>
